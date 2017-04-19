@@ -1,4 +1,7 @@
-# test coverage for  [mercury (v14.1.0)](https://github.com/Raynos/mercury)  [![npm package](https://img.shields.io/npm/v/npmtest-mercury.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mercury) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mercury.svg)](https://travis-ci.org/npmtest/node-npmtest-mercury)
+# npmtest-mercury
+
+#### test coverage for  [mercury (v14.1.0)](https://github.com/Raynos/mercury)  [![npm package](https://img.shields.io/npm/v/npmtest-mercury.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mercury) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mercury.svg)](https://travis-ci.org/npmtest/node-npmtest-mercury)
+
 #### A truly modular frontend framework
 
 [![NPM](https://nodei.co/npm/mercury.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mercury)
