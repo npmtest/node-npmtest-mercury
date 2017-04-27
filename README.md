@@ -1,6 +1,6 @@
 # npmtest-mercury
 
-#### test coverage for  [mercury (v14.1.0)](https://github.com/Raynos/mercury)  [![npm package](https://img.shields.io/npm/v/npmtest-mercury.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mercury) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mercury.svg)](https://travis-ci.org/npmtest/node-npmtest-mercury)
+#### basic test coverage for  [mercury (v14.1.0)](https://github.com/Raynos/mercury)  [![npm package](https://img.shields.io/npm/v/npmtest-mercury.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mercury) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mercury.svg)](https://travis-ci.org/npmtest/node-npmtest-mercury)
 
 #### A truly modular frontend framework
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mercury/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mercury/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mercury/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mercury/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mercury/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mercury/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mercury/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mercury/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mercury/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mercury/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mercury/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mercury/build/coverage.html/index.html)
 
@@ -168,7 +168,8 @@
         "travis-test": "npm run phantom && npm run cover && istanbul report lcov && ((cat coverage/lcov.info | coveralls) || exit 0) && zuul -- test/index.js",
         "view-cover": "istanbul report html && opn coverage/index.html"
     },
-    "version": "14.1.0"
+    "version": "14.1.0",
+    "bin": {}
 }
 ```
 
